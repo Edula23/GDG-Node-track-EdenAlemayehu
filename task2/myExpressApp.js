@@ -17,7 +17,7 @@ app.get('/students/:studentId', (req, res) => {
         id: studentId,
         name: 'Abebe',
         email: `abebe${studentId}@example.com`,
-        department: 'Software',
+        department: req.query.department,
     }
     res.json(student);
 });
