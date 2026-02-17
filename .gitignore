@@ -12,3 +12,6 @@ pnpm-debug.log*
 
 # Environment files
 .env
+
+# VS Code workspace settings
+.vscode/settings.json

@@ -1,7 +1,7 @@
 
 import express from "express";
 import cors from "cors";
-import router from "./routers/routeEcom.js";
+import router from "./src/routers/routeEcom.js";
 import { connectDB } from "./config/dbConfig.js";
 
 const app = express();
